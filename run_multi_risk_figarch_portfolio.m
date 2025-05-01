@@ -11,7 +11,6 @@ function [portfolio_returns_all, weights_all, risk_metrics] = run_multi_risk_fig
 %   max_iter - Maximum number of iterations for FIGARCH estimation (default: 6000)
 %   optimization_type - Risk measure for portfolio optimization:
 %      'tstudent' - VaR with Student's t-distribution
-%      'gaussian' - VaR with Gaussian distribution
 %      'cornish-fisher' - VaR using Cornish-Fisher expansion
 %      'historical-var' - Historical VaR computed directly from past data
 %      'all' - Runs all VaR methods and returns multi-column results
